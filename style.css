@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: black;
+    background-color: darkred;
     color: white;
 }
 span, #header{
@@ -37,6 +37,7 @@ span, #header{
     margin: 10px 0px;
 }
 .navbar{
+    
     display: flex;
     justify-content: space-evenly;
     margin-top: 20px;
@@ -60,4 +61,10 @@ span, #header{
 .project-child img{
     width: 200px;
     height: 150px;
+}
+#kontak{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-content: center;
+    justify-content: space-around;
 }
